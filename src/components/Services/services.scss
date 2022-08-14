@@ -1,0 +1,19 @@
+.services {
+  .service-icon {
+    width: 100%;
+    height: 150px;
+  }
+  .iconify {
+    font-size: 20px;
+  }
+
+  /* media query for small device  */
+  @media only screen and (max-width: 768px) {
+    // .service-icon {
+    //   display: inline-block;
+    // }
+  }
+  /* media query for tablet and ipad  */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  }
+}

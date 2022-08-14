@@ -1,0 +1,37 @@
+.about-us {
+  .aboutus-img img {
+    border-radius: 10px;
+    height: 400px;
+  }
+  .about {
+    text-align: left;
+  }
+}
+
+/* media query for small device  */
+@media only screen and (max-width: 768px) {
+  .desc {
+      .aboutus-img img {
+      border-radius: 5px;
+      height: 250px;
+      width: 100%;
+      margin-top: 30px;
+      object-fit: cover;
+      padding: 0%;
+    }
+    .about-us {
+      display: contents;
+    }
+  }
+}
+/* media query for tablet and ipad  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-us {
+    // .aboutus-img img {
+    //   border-radius: 10px;
+    // }
+    .about {
+      text-align: left;
+    }
+  }
+}

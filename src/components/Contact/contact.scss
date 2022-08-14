@@ -1,0 +1,33 @@
+.contactus {
+  .content {
+    width: 40%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+}
+
+/* media query for small device  */
+@media only screen and (max-width: 768px) {
+  .contactus {
+    .content {
+      display: contents;
+    }
+    .contact {
+      margin: 10px;
+    }
+  }
+}
+
+/* media query for tablet and ipad  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-us {
+    .aboutus-img img {
+      border-radius: 10px;
+    }
+    .about {
+      text-align: left;
+    }
+  }
+}

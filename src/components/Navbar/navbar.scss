@@ -1,0 +1,84 @@
+.navbar {
+  .header {
+    height: 70vh;
+    align-items: center;
+  }
+
+  .logo-img img {
+    height: 60px;
+    width: 70px;
+    align-items: center;
+  }
+
+  .image img {
+    object-fit: fill;
+    height: 500px;
+    width: 100%;
+  }
+  // nav {
+  //   left: 30%;
+  // }
+
+  #basic-navbar-nav {
+    word-spacing: 8px;
+    font-weight: bold;
+  }
+
+  .carousel {
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    top: 0;
+  }
+  .carousel img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+
+  .book {
+    position: absolute;
+    z-index: 2;
+    bottom: -40px;
+    left: 10%;
+    margin-left: -50px;
+    border-radius: 3px;
+    // background-color: rgb(94, 90, 90);
+    background-color: #596c83;
+  }
+
+  .book .select-room-button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    resize: vertical;
+  }
+
+  /* media query for small device  */
+  @media only screen and (max-width: 768px) {
+    nav {
+      float: left;
+    }
+    .book-btn {
+      display: none;
+    }
+    /* media query for tablet and ipad  */
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .banner-container {
+        width: 100%;
+        object-fit: cover;
+      }
+      .banner-container .banner-image img {
+        height: 400px;
+      }
+    }
+  }
+}
